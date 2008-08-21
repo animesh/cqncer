@@ -1,23 +1,8 @@
-Global setup:
 
-  git config --global user.email sharma.animesh@gmail.com
-      
 
-Next steps:
+The project involves simulating genome assembly which is like finding the shortest common superstring (S) of a given set of strings (s1, s2… sn). The superstring S is known as a contig of the Genome and the set of strings being the short sequence reads churned out of the sequencing machines. This problem is shown to be NP-hard but there are several heuristic algorithms. 
 
-  mkdir cqncer
-  cd cqncer
-  git init
-  touch README
-  git add README
-  git commit -m 'first commit'
-  git remote add origin git@github.com:animesh/cqncer.git
-  git push origin master
-      
+The popular software programs doing assembly are Phrap (http://www.phrap.org/), MIRA (http://chevreux.org/projects_mira.html), Sequencher (http://www.genecodes.com/), AMOS (http://amos.sourceforge.net), Celera Assembler (http://sourceforge.net/projects/wgs-assembler), Arachne (http://www.broad.mit.edu/wga/), DNA Baser (http://www.dnabaser.com/) and Newbler (http://www.454.com/enabling-technology/the-software.asp) and for manual correction - visualization such as Consed (http://bozeman.mbt.washington.edu/consed/consed.html) and Hawkeye (http://amos.sourceforge.net/hawkeye/). 
 
-Existing Git Repo?
+ 
 
-  cd existing_git_repo
-  git remote add origin git@github.com:animesh/cqncer.git
-  git push origin master
-      
